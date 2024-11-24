@@ -19,3 +19,6 @@ C:\Users\santi\source\repos\ThreeInLine\ThreeInLine\obj\Debug\net7.0-windows\ref
 C:\Users\santi\source\repos\ThreeInLine\ThreeInLine\obj\Debug\net7.0-windows\ThreeInLine.pdb
 C:\Users\santi\source\repos\ThreeInLine\ThreeInLine\obj\Debug\net7.0-windows\ThreeInLine.genruntimeconfig.cache
 C:\Users\santi\source\repos\ThreeInLine\ThreeInLine\obj\Debug\net7.0-windows\ref\ThreeInLine.dll
+C:\Users\santi\source\repos\ThreeInLine\ThreeInLine\bin\Debug\net7.0-windows\ThreeInLine.Lib.dll
+C:\Users\santi\source\repos\ThreeInLine\ThreeInLine\bin\Debug\net7.0-windows\ThreeInLine.Lib.pdb
+C:\Users\santi\source\repos\ThreeInLine\ThreeInLine\obj\Debug\net7.0-windows\ThreeInLine.csproj.CopyComplete

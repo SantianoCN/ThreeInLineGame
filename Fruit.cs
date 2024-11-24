@@ -12,5 +12,10 @@ namespace ThreeInLine
     {
         public Vector2 Position { get; set; }
         public Image Body { get; set; }
+
+        public void Destroy()
+        {
+            
+        }
     }
 }

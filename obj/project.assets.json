@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows7.0": {}
+    "net7.0-windows7.0": {
+      "ThreeInLine.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ThreeInLine.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ThreeInLine.Lib.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ThreeInLine.Lib/1.0.0": {
+      "type": "project",
+      "path": "../ThreeInLine.Lib/ThreeInLine.Lib.csproj",
+      "msbuildProject": "../ThreeInLine.Lib/ThreeInLine.Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0-windows7.0": []
+    "net7.0-windows7.0": [
+      "ThreeInLine.Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\santi\\.nuget\\packages\\": {},
@@ -38,7 +60,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\santi\\source\\repos\\ThreeInLine\\ThreeInLine.Lib\\ThreeInLine.Lib.csproj": {
+              "projectPath": "C:\\Users\\santi\\source\\repos\\ThreeInLine\\ThreeInLine.Lib\\ThreeInLine.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

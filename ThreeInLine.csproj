@@ -7,4 +7,27 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Basket.png" />
+    <None Remove="Images\Cherry.png" />
+    <None Remove="Images\Lemon.png" />
+    <None Remove="Images\Orange.png" />
+    <None Remove="Images\peach.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Basket.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThreeInLine.Lib\ThreeInLine.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Cherry.png" />
+    <Resource Include="Images\Lemon.png" />
+    <Resource Include="Images\Orange.png" />
+    <Resource Include="Images\Peach.png" />
+  </ItemGroup>
+
 </Project>

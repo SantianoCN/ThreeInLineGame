@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "ThreeInLine/1.0.0": {
+        "dependencies": {
+          "ThreeInLine.Lib": "1.0.0"
+        },
         "runtime": {
           "ThreeInLine.dll": {}
+        }
+      },
+      "ThreeInLine.Lib/1.0.0": {
+        "runtime": {
+          "ThreeInLine.Lib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ThreeInLine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ThreeInLine.Lib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
