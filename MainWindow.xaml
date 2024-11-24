@@ -6,9 +6,12 @@
         xmlns:local="clr-namespace:ThreeInLine"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800" Background="#FF292929">
-    <Canvas Height="450" Width="450">
-        <Grid x:Name="field" Height="450" Width="450">
-            
-        </Grid>
-    </Canvas>
+    <Grid>
+        <TextBlock Margin="10" VerticalAlignment="Top" HorizontalAlignment="Left" Width="170" Height="42" x:Name="scoreField" Text="Очки: " FontSize="32" Foreground="White"></TextBlock>
+        <Canvas Height="450" Width="450">
+            <Grid x:Name="field" Height="450" Width="450">
+
+            </Grid>
+        </Canvas>
+    </Grid>
 </Window>

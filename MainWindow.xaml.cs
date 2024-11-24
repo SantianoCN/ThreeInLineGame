@@ -49,7 +49,7 @@ namespace ThreeInLine
 
         public void StartGame()
         {
-            var game = new GameFacade(field);
+            var game = new GameFacade(field, scoreField);
 
             game.StartGame();
         }
